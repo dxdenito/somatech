@@ -1,0 +1,2 @@
+# somatech
+Study learn code!!!
