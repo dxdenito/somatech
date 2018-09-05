@@ -1,0 +1,148 @@
+body{
+	font-family: 'Lato', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	background: white;
+	
+	width: 100%;
+	height: 100%;
+}
+h1{
+	font-size: 22px;
+
+}
+h2{
+	font-size: 19px;
+}
+h3{
+	font-size: 17px;
+}
+h4{
+	font-size: 14px
+}
+h5{
+	font-size: 11px;
+}
+h6{
+	font-size: 8px
+}
+.navbar{
+	background:#343a40;;
+	height:60px;
+	border:none;
+	
+}
+.navbar-default .navbar-brand{
+	color:gold;
+}
+.navbar-default .navbar-nav> li> a {
+	color:gold
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	color:black;
+	background:gold;
+}
+.navbar-default .navbar-nav> li> a:hover {
+	color:black;
+	background:gray;
+}
+.panel{
+margin-top: 60px;
+}
+
+.float-md-left{
+	width:60%;
+	float: left;
+	
+}
+.float-md-right{
+	width:40%;
+	float: right;
+	
+}
+#content{
+	
+	color: #444;
+	
+}
+ol li{
+	line-height: 50px;
+	list-style-type: none;
+}
+input[type=text],input[type=password], textarea{
+	-webkit-appearance:none;
+	padding: 5px;
+	border: 1px solid #ccc;
+
+}
+#footer{
+	clear: both;
+	display:flex;
+	width:100%;
+	background:#343a40;
+	margin-bottom: 0;
+}
+#footer li{
+	list-style-type: none;
+	text-indent: left
+}
+#footer i.fa{
+	color: gold;
+}
+#footer #btn{
+	overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+	border:2px solid white;
+	cursor:pointer;[]
+	border-radius:10%;
+	width:20vw;
+	height:3vw;
+	display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    
+	color: #343a40;
+    background-color: gold;
+    border-color: #007bff;
+	user-select: none;
+    border: 1px solid transparent;
+   position:relative;
+    font-size: 1vw;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-top: 2px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	
+}
+#footer #btn:hover{
+	background: yellow;
+	}
+#footer #email{
+	overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+	border:2px solid white;
+	
+	border-radius:10%;
+	width:20vw;
+	height:3vw;
+	display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    
+	color: #343a40;
+    background-color: white;
+    border-color: #007bff;
+	
+    border: 1px solid transparent;
+   position:relative;
+    font-size: 1vw;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	
+}
